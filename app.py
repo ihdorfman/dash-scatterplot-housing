@@ -1,4 +1,4 @@
-    import dash
+import dash
 import dash_core_components as dcc
 import dash_html_components as html
 import plotly.graph_objs as go
@@ -8,7 +8,7 @@ import pandas as pd
 
 tabtitle = 'DC Housing Cost and Land Area Assessments'
 myheading='Analysis of housing prices in Washington DC'
-neighborhood='Columbia Heights?'
+neighborhood='Columbia Heights'
 color1='#FF0065'
 color2='#E35BE5'
 sourceurl = 'https://www.kaggle.com/christophercorrea/dc-residential-properties/'
